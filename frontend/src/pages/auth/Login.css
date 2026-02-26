@@ -1,0 +1,106 @@
+/* ===== Page Background ===== */
+.login-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f2f5, #e6f5ea);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Login Card ===== */
+.login-card {
+  background: #ffffff;
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+/* ===== Title ===== */
+.login-card h2 {
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* ===== Subtitle ===== */
+.login-subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/* ===== Message ===== */
+.login-message {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: red;
+}
+
+/* ===== Form ===== */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== Inputs ===== */
+.login-form input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.login-form input:focus {
+  border-color: #4caf50;
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.15);
+  outline: none;
+}
+
+/* ===== Login Button ===== */
+.login-btn {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-btn:hover {
+  background-color: #43a047;
+  transform: translateY(-2px);
+}
+
+/* ===== Footer ===== */
+.login-footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.login-footer a {
+  color: #4caf50;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Mobile Responsive ===== */
+@media (max-width: 480px) {
+  .login-card {
+    padding: 30px 20px;
+  }
+}

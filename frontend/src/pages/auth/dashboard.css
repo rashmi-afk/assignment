@@ -1,0 +1,78 @@
+/* ===== Dashboard Container ===== */
+.dashboard-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f2f5, #e6f5ea);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Dashboard Card ===== */
+.dashboard-card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* ===== Heading ===== */
+.dashboard-card h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* ===== Role Text ===== */
+.dashboard-card p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* ===== Role Badge ===== */
+.role-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.role-admin {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.role-employee {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+/* ===== Logout Button ===== */
+.logout-btn {
+  margin-top: 25px;
+  padding: 12px 24px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.logout-btn:hover {
+  background-color: #d32f2f;
+  transform: translateY(-2px);
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 480px) {
+  .dashboard-card {
+    padding: 30px 20px;
+  }
+}
